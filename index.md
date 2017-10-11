@@ -7,7 +7,7 @@ framework   : deckjs        # {io2012, html5slides, shower, dzslides, ...}
 highlighter : highlight.js  # {highlight.js, prettify, highlight}
 hitheme     : solarized_light
 widgets     : []            # {mathjax, quiz, bootstrap}
-mode        : selfcontained # {standalone, draft}
+mode        : standalone # {standalone, draft}
 knit        : slidify::knit2slides
 ---
 
@@ -80,7 +80,7 @@ Why are there two versions of Python?
 ![Work python version](http://ianozsvald.com/wp-content/uploads/2016/06/work_python.png)
 ![Non-work python version](http://ianozsvald.com/wp-content/uploads/2016/06/home_python.png)
 ![Expecting to switch soon?](http://ianozsvald.com/wp-content/uploads/2016/06/upgrading.png)
-![Version used most?](http://ianozsvald.com/wp-content/uploads/2016/06/distribution.png)
+![Distribution used most?](http://ianozsvald.com/wp-content/uploads/2016/06/distribution.png)
 
 ---
 # Using both versions of Python

@@ -67,6 +67,9 @@ Why are there two versions of Python?
 ### 6,000 stable and actively developed packages on PyPI
 ![](https://cdn-images-1.medium.com/max/1600/1*dfZp1DzXw4oGnUvMff100A.png)
 
+---
+## Current Python 3 library support
+
 ### The 28% of packages that are Python 2 only
 ![](https://cdn-images-1.medium.com/max/1600/1*LBjOKMUe1eXygimuyNudhQ.png)
 
@@ -78,6 +81,10 @@ Why are there two versions of Python?
 
 ![Work python version](http://ianozsvald.com/wp-content/uploads/2016/06/work_python.png)
 ![Non-work python version](http://ianozsvald.com/wp-content/uploads/2016/06/home_python.png)
+
+---
+## High adoption rates among data scientists in 2016
+
 ![Expecting to switch soon?](http://ianozsvald.com/wp-content/uploads/2016/06/upgrading.png)
 ![Distribution used most?](http://ianozsvald.com/wp-content/uploads/2016/06/distribution.png)
 

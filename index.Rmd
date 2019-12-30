@@ -3,7 +3,7 @@ title       : Python 2 vs. Python 3
 subtitle    : 
 author      : Leslie Emery
 job         : Genetic Analysis Center
-framework   : deckjs        # {io2012, html5slides, shower, dzslides, ...}
+framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
 highlighter : highlight.js  # {highlight.js, prettify, highlight}
 hitheme     : solarized_light
 widgets     : []            # {mathjax, quiz, bootstrap}

@@ -80,12 +80,20 @@ Why are there two versions of Python?
 ## High adoption rates among data scientists in 2016
 
 ![Work python version](http://ianozsvald.com/wp-content/uploads/2016/06/work_python.png)
+
+---
+## High adoption rates among data scientists in 2016
+
 ![Non-work python version](http://ianozsvald.com/wp-content/uploads/2016/06/home_python.png)
 
 ---
 ## High adoption rates among data scientists in 2016
 
 ![Expecting to switch soon?](http://ianozsvald.com/wp-content/uploads/2016/06/upgrading.png)
+
+---
+## High adoption rates among data scientists in 2016
+
 ![Distribution used most?](http://ianozsvald.com/wp-content/uploads/2016/06/distribution.png)
 
 ---
@@ -102,6 +110,12 @@ Most systems currently maintain python 2.7 and python 3.x simultaneously
 /usr/bin/python2
 03:34 PM emeryl@fisher ~ $ which python3
 /usr/local/bin/python3
+```
+
+---
+## On the compute clusters
+
+```
 03:34 PM emeryl@fisher ~ $ ls -lhA /usr/local/bin/python*
 lrwxrwxrwx 1 root root 35 Sep 10  2012 /usr/local/bin/python2.7 -> /usr/local/python-2.7/bin/python2.7
 lrwxrwxrwx 1 root root 42 Sep 10  2012 /usr/local/bin/python2.7-config -> /usr/local/python-2.7/bin/python2.7-config
@@ -111,6 +125,12 @@ lrwxrwxrwx 1 root root 44 Sep 11  2012 /usr/local/bin/python3.1-config -> /usr/l
 lrwxrwxrwx 1 root root 35 Jan  4  2016 /usr/local/bin/python3.4 -> /usr/local/python-3.4/bin/python3.4
 lrwxrwxrwx 1 root root 36 Jan  4  2016 /usr/local/bin/python3.4m -> /usr/local/python-3.4/bin/python3.4m
 lrwxrwxrwx 1 root root 43 Jan  4  2016 /usr/local/bin/python3.4m-config -> /usr/local/python-3.4/bin/python3.4m-config
+```
+
+---
+## On the compute clusters
+
+```
 03:35 PM emeryl@fisher ~ $ ls -lhA /usr/bin/python*
 -rwxr-xr-x 2 root root 8.9K May 22  2015 /usr/bin/python
 lrwxrwxrwx 1 root root    6 Jun 29  2016 /usr/bin/python2 -> python
@@ -120,11 +140,9 @@ lrwxrwxrwx 1 root root   16 Jun 29  2016 /usr/bin/python-config -> python2.6-con
 ```
 
 ---
-## On your desktop
+## On a Mac desktop
 
-### On a Mac
-
-* Apple's python  
+### Apple's python
 
 ```
 01:00 PM emeryl@gcc-mac-004 ~ $ /usr/bin/python2.6
@@ -132,10 +150,12 @@ Python 2.6.9 (unknown, Feb  7 2017, 00:08:08)
 [GCC 4.2.1 Compatible Apple LLVM 8.0.0 (clang-800.0.34)] on darwin
 Type "help", "copyright", "credits" or "license" for more information.
 >>> 
-  
 ```
 
-* MacPorts  
+### Homebrew
+
+---
+## On a Mac desktop: MacPorts  
 
 ```
 12:58 PM emeryl@gcc-mac-004 ~ $ port select --summary
@@ -147,12 +167,22 @@ python      python34      python26-apple python27 python27-apple python34 python
 python2     python27      python26-apple python27 python27-apple none
 python3     python34      python34 python35 none
 virtualenv  virtualenv34  virtualenv34 virtualenv35 none
+```
 
+---
+## On a Mac desktop: MacPorts  
+
+```
 12:58 PM emeryl@gcc-mac-004 ~ $ which python
 /Users/emeryl/macports/bin/python
 12:59 PM emeryl@gcc-mac-004 ~ $ which python2
 /Users/emeryl/macports/bin/python2
+```
 
+---
+## On a Mac desktop: MacPorts  
+
+```
 12:59 PM emeryl@gcc-mac-004 ~ $ ls -lhA ~/macports/bin/python*
 lrwxr-xr-x  1 emeryl  staff    36B Jun 29 17:29 /Users/emeryl/macports/bin/python -> /Users/emeryl/macports/bin/python3.4
 lrwxr-xr-x  1 emeryl  staff    43B Jun 29 17:29 /Users/emeryl/macports/bin/python-config -> /Users/emeryl/macports/bin/python3.4-config
@@ -166,6 +196,14 @@ lrwxr-xr-x  1 emeryl  staff    85B Sep 27 15:23 /Users/emeryl/macports/bin/pytho
 lrwxr-xr-x  1 emeryl  staff    92B Sep 27 15:23 /Users/emeryl/macports/bin/python3.4-config -> /Users/emeryl/macports/Library/Frameworks/Python.framework/Versions/3.4/bin/python3.4-config
 lrwxr-xr-x  1 emeryl  staff    86B Sep 27 15:23 /Users/emeryl/macports/bin/python3.4m -> /Users/emeryl/macports/Library/Frameworks/Python.framework/Versions/3.4/bin/python3.4m
 lrwxr-xr-x  1 emeryl  staff    93B Sep 27 15:23 /Users/emeryl/macports/bin/python3.4m-config -> /Users/emeryl/macports/Library/Frameworks/Python.framework/Versions/3.4/bin/python3.4m-config
+...
+```
+
+---
+## On a Mac desktop: MacPorts  
+
+```
+...
 lrwxr-xr-x  1 emeryl  staff    85B Sep 27 15:24 /Users/emeryl/macports/bin/python3.5 -> /Users/emeryl/macports/Library/Frameworks/Python.framework/Versions/3.5/bin/python3.5
 lrwxr-xr-x  1 emeryl  staff    92B Sep 27 15:24 /Users/emeryl/macports/bin/python3.5-config -> /Users/emeryl/macports/Library/Frameworks/Python.framework/Versions/3.5/bin/python3.5-config
 lrwxr-xr-x  1 emeryl  staff    86B Sep 27 15:24 /Users/emeryl/macports/bin/python3.5m -> /Users/emeryl/macports/Library/Frameworks/Python.framework/Versions/3.5/bin/python3.5m
@@ -176,9 +214,8 @@ lrwxr-xr-x  1 emeryl  staff    19B Oct 11 12:59 /Users/emeryl/macports/bin/pytho
 lrwxr-xr-x  1 emeryl  staff    86B Sep 27 09:57 /Users/emeryl/macports/bin/pythonw2.7 -> /Users/emeryl/macports/Library/Frameworks/Python.framework/Versions/2.7/bin/pythonw2.7
 ```
 
-* Homebrew
-
-### Windows
+---
+## On a Windows desktop
 
 Any suggestions?  
 
